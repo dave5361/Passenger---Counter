@@ -1,0 +1,47 @@
+body{
+    font-family:'roboto', sans-serif;
+    margin-top: 100px;
+    text-align: center;
+    background-image: url(Bustop3.jpg);
+    background-size: cover;
+    background-position: center;
+    color: black;
+    text-shadow: 0px 0px 2px wheat;
+}
+.container{
+    background-color: wheat;
+    max-width: 30%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px 2px; 
+}
+.h1{
+    margin-bottom: 150px;
+}
+
+#save-el{
+    margin-bottom: 50px;
+    color: black;
+}
+#increment-btn{
+    padding: 20px 100px 20px 100px;
+    background-color:#2C2891;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px white ;
+    border: 3px solid black;
+    margin-bottom: 50px;
+    color: wheat;
+    
+    
+}
+#save-btn{
+    padding: 20px 120px 20px 120px;
+    background-color: #1c7947;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 3px solid black;
+    box-shadow: 3px 3px 10px white ;
+    margin-bottom: 50px;
+    color: wheat;
+
+}

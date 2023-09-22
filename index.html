@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Orbitron:wght@400;800&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="h1">Passenger Boarding Counter</h1>
+      <h2 class="h2">Passenger(s) entered</h2>
+      <h2 id="count-el">0</h2>
+      <div class="buttons">
+        <div>
+          <button id="increment-btn" onclick="increment()">INCREMENT</button>
+        </div>
+        <div><button id="save-btn" onclick="save()">SAVE</button></div>
+      </div>
+      <h2 id="save-el">Previous entries:</h2>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
